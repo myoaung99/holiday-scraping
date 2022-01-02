@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      li {
+        list-style: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tbody>
+        <tr id="tr1" data-mask="1" data-date="1640995200000" class="showrow">
+          <th class="nw">1 Jan</th>
+          <td class="nw">Saturday</td>
+          <td>
+            <a href="/holidays/myanmar/new-year-holiday">New Year Holiday</a>
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr2" data-mask="1" data-date="1641081600000" class="showrow">
+          <th class="nw">2 Jan</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/kayin-new-year-day"
+              >Kayin New Year Day</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr3" data-mask="1" data-date="1641254400000" class="showrow">
+          <th class="nw">4 Jan</th>
+          <td class="nw">Tuesday</td>
+          <td>
+            <a href="/holidays/myanmar/independence-day">Independence Day</a>
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_feb" class="hiderow"></tr>
+        <tr id="tr5" data-mask="1" data-date="1644624000000" class="showrow">
+          <th class="nw">12 Feb</th>
+          <td class="nw">Saturday</td>
+          <td><a href="/holidays/myanmar/union-day">Union Day</a></td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_mar" class="hiderow"></tr>
+        <tr
+          id="tr7"
+          data-mask="1048576"
+          data-date="1646092800000"
+          class="showrow"
+        >
+          <th class="nw">1 Mar</th>
+          <td class="nw">Tuesday</td>
+          <td>
+            <a href="/holidays/myanmar/hindu-maha-shivaratri"
+              >Maha Shivaratri</a
+            >
+          </td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr id="tr8" data-mask="1" data-date="1646179200000" class="showrow">
+          <th class="nw">2 Mar</th>
+          <td class="nw">Wednesday</td>
+          <td><a href="/holidays/myanmar/peasants-day">Peasants' Day</a></td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr9" data-mask="1" data-date="1647388800000" class="showrow">
+          <th class="nw">16 Mar</th>
+          <td class="nw">Wednesday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-tabaung"
+              >Full Moon Day of Tabaung</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr
+          id="tr10"
+          data-mask="1048576"
+          data-date="1647561600000"
+          class="showrow"
+        >
+          <th class="nw">18 Mar</th>
+          <td class="nw">Friday</td>
+          <td><a href="/holidays/myanmar/hindu-holi">Holi</a></td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr id="tr11" data-mask="256" data-date="1647813805000" class="showrow">
+          <th class="nw">20 Mar</th>
+          <td class="nw">Sunday</td>
+          <td><a href="/calendar/march-equinox.html">March Equinox</a></td>
+          <td>Season</td>
+        </tr>
+        <tr id="tr12" data-mask="1" data-date="1648339200000" class="showrow">
+          <th class="nw">27 Mar</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/armed-forces-day">Armed Forces' Day</a>
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_apr" class="hiderow"></tr>
+        <tr id="tr14" data-mask="1" data-date="1649462400000" class="showrow">
+          <th class="nw">9 Apr</th>
+          <td class="nw">Saturday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-6"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr15" data-mask="1" data-date="1649548800000" class="showrow">
+          <th class="nw">10 Apr</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-7"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr16" data-mask="1" data-date="1649635200000" class="showrow">
+          <th class="nw">11 Apr</th>
+          <td class="nw">Monday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-8"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr17" data-mask="1" data-date="1649721600000" class="showrow">
+          <th class="nw">12 Apr</th>
+          <td class="nw">Tuesday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-9"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr18" data-mask="1" data-date="1649808000000" class="showrow">
+          <th class="nw">13 Apr</th>
+          <td class="nw">Wednesday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr19" data-mask="1" data-date="1649894400000" class="showrow">
+          <th class="nw">14 Apr</th>
+          <td class="nw">Thursday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-2"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr20" data-mask="1" data-date="1649980800000" class="showrow">
+          <th class="nw">15 Apr</th>
+          <td class="nw">Friday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-3"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr21" data-mask="1" data-date="1650067200000" class="showrow">
+          <th class="nw">16 Apr</th>
+          <td class="nw">Saturday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-4"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr22" data-mask="1" data-date="1650153600000" class="showrow">
+          <th class="nw">17 Apr</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/maha-thingyan-water-festival-5"
+              >Maha Thingyan (Water Festival)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_may" class="hiderow"></tr>
+        <tr id="tr24" data-mask="1" data-date="1651363200000" class="showrow">
+          <th class="nw">1 May</th>
+          <td class="nw">Sunday</td>
+          <td><a href="/holidays/myanmar/may-day">Labor Day / May Day</a></td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr25" data-mask="1" data-date="1652486400000" class="showrow">
+          <th class="nw">14 May</th>
+          <td class="nw">Saturday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-kasong"
+              >Full Moon Day of Kasong</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_jun" class="hiderow"></tr>
+        <tr id="tr27" data-mask="256" data-date="1655826231000" class="showrow">
+          <th class="nw">21 Jun</th>
+          <td class="nw">Tuesday</td>
+          <td><a href="/calendar/june-solstice.html">June Solstice</a></td>
+          <td>Season</td>
+        </tr>
+        <tr id="hol_jul" class="hiderow"></tr>
+        <tr id="tr29" data-mask="1" data-date="1657411200000" class="showrow">
+          <th class="nw">10 Jul</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/eid-al-adha"
+              >Eid al-Adha (Tentative Date)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr30" data-mask="1" data-date="1657584000000" class="showrow">
+          <th class="nw">12 Jul</th>
+          <td class="nw">Tuesday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-waso"
+              >Full Moon Day of Waso (Beginning of Buddhist Lent)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr31" data-mask="1" data-date="1658188800000" class="showrow">
+          <th class="nw">19 Jul</th>
+          <td class="nw">Tuesday</td>
+          <td><a href="/holidays/myanmar/martyrs-day">Martyrs' Day</a></td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_aug" class="hiderow"></tr>
+        <tr
+          id="tr33"
+          data-mask="1048576"
+          data-date="1660176000000"
+          class="showrow"
+        >
+          <th class="nw">11 Aug</th>
+          <td class="nw">Thursday</td>
+          <td>
+            <a href="/holidays/myanmar/hindu-raksha-bandhan">Raksha Bandhan</a>
+          </td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr
+          id="tr34"
+          data-mask="1048576"
+          data-date="1660780800000"
+          class="showrow"
+        >
+          <th class="nw">18 Aug</th>
+          <td class="nw">Thursday</td>
+          <td><a href="/holidays/myanmar/hindu-janmashtami">Janmashtami</a></td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr
+          id="tr35"
+          data-mask="1048576"
+          data-date="1661904000000"
+          class="showrow"
+        >
+          <th class="nw">31 Aug</th>
+          <td class="nw">Wednesday</td>
+          <td>
+            <a href="/holidays/myanmar/hindu-ganesh-chaturthi"
+              >Ganesh Chaturthi</a
+            >
+          </td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr id="hol_sep" class="hiderow"></tr>
+        <tr id="tr37" data-mask="256" data-date="1663918414000" class="showrow">
+          <th class="nw">23 Sep</th>
+          <td class="nw">Friday</td>
+          <td>
+            <a href="/calendar/september-equinox.html">September Equinox</a>
+          </td>
+          <td>Season</td>
+        </tr>
+        <tr
+          id="tr38"
+          data-mask="1048576"
+          data-date="1664150400000"
+          class="showrow"
+        >
+          <th class="nw">26 Sep</th>
+          <td class="nw">Monday</td>
+          <td><a href="/holidays/myanmar/hindu-navaratri">Navaratri</a></td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr id="hol_oct" class="hiderow"></tr>
+        <tr
+          id="tr40"
+          data-mask="1048576"
+          data-date="1664928000000"
+          class="showrow"
+        >
+          <th class="nw">5 Oct</th>
+          <td class="nw">Wednesday</td>
+          <td><a href="/holidays/myanmar/hindu-dussera">Dussehra</a></td>
+          <td>Hindu Holiday</td>
+        </tr>
+        <tr id="tr41" data-mask="1" data-date="1665187200000" class="showrow">
+          <th class="nw">8 Oct</th>
+          <td class="nw">Saturday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-thadingyut-1"
+              >Full Moon Day of Thadingyut Holiday (End of Buddhist Lent)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr42" data-mask="1" data-date="1665273600000" class="showrow">
+          <th class="nw">9 Oct</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-thadingyut"
+              >Full Moon Day of Thadingyut (End of Buddhist Lent)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr43" data-mask="1" data-date="1665360000000" class="showrow">
+          <th class="nw">10 Oct</th>
+          <td class="nw">Monday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-thadingyut-2"
+              >Full Moon Day of Thadingyut Holiday (End of Buddhist Lent)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr44" data-mask="1" data-date="1666569600000" class="showrow">
+          <th class="nw">24 Oct</th>
+          <td class="nw">Monday</td>
+          <td>
+            <a href="/holidays/myanmar/deepavali"
+              >Diwali/Deepavali (Tentative Date)</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_nov" class="hiderow"></tr>
+        <tr id="tr46" data-mask="1" data-date="1667692800000" class="showrow">
+          <th class="nw">6 Nov</th>
+          <td class="nw">Sunday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-tazaungmone"
+              >Full Moon Day of Tazaungmone</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr47" data-mask="1" data-date="1667779200000" class="showrow">
+          <th class="nw">7 Nov</th>
+          <td class="nw">Monday</td>
+          <td>
+            <a href="/holidays/myanmar/full-moon-day-of-tazaungmone-1"
+              >Full Moon Day of Tazaungmone Holiday</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr48" data-mask="1" data-date="1668643200000" class="showrow">
+          <th class="nw">17 Nov</th>
+          <td class="nw">Thursday</td>
+          <td><a href="/holidays/myanmar/national-day">National Day</a></td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="hol_dec" class="hiderow"></tr>
+        <tr id="tr50" data-mask="1" data-date="1671667200000" class="showrow">
+          <th class="nw">22 Dec</th>
+          <td class="nw">Thursday</td>
+          <td>
+            <a href="/holidays/myanmar/kayin-new-year-day"
+              >Kayin New Year Day</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr51" data-mask="256" data-date="1671682693000" class="showrow">
+          <th class="nw">22 Dec</th>
+          <td class="nw">Thursday</td>
+          <td>
+            <a href="/calendar/december-solstice.html">December Solstice</a>
+          </td>
+          <td>Season</td>
+        </tr>
+        <tr id="tr52" data-mask="1" data-date="1671926400000" class="showrow">
+          <th class="nw">25 Dec</th>
+          <td class="nw">Sunday</td>
+          <td><a href="/holidays/myanmar/christmas-day">Christmas Day</a></td>
+          <td>Public Holiday</td>
+        </tr>
+        <tr id="tr53" data-mask="1" data-date="1672444800000" class="showrow">
+          <th class="nw">31 Dec</th>
+          <td class="nw">Saturday</td>
+          <td>
+            <a href="/holidays/myanmar/new-year-eve-holiday"
+              >New Year Holiday</a
+            >
+          </td>
+          <td>Public Holiday</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul id="list"></ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
